@@ -143,6 +143,10 @@ section button {
   line-height: 17px;
 }
 
+section button:hover {
+  background-color: var(--Deep-Aquamarine-Hover);
+}
+
 section button img {
   height: 16px;
   width: auto;
@@ -150,6 +154,8 @@ section button img {
   margin-right: 12px;
   border-radius: 0px;
 }
+
+
 
 @media screen and (min-width: 700px) {
     main {
@@ -172,6 +178,6 @@ section button img {
     main section {
         width: 300px;
         height: 100%;
-        padding: 32px 24px;
+        padding: 32px 32px;
     }
 }
