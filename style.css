@@ -145,6 +145,7 @@ section button {
 
 section button:hover {
   background-color: var(--Deep-Aquamarine-Hover);
+  cursor: pointer;
 }
 
 section button img {
